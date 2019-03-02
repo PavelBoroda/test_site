@@ -1,0 +1,139 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  height: 3.3vw;
+}
+.buttons button {
+  cursor: pointer;
+}
+// Цвета в документе
+$color_blue: rgb(78, 183, 168);
+$color_red: rgb(231, 87, 53);
+$color_white: white;
+$color_gray:  e5e5e5;
+
+// Стандартные кнопки ниже
+._buttons_standart {
+  display: flex;
+  width: 40vw;
+  height: 3.3vw;
+}
+
+._buttons_standart .blue {
+  background-color: $color_white;
+  color: $color_blue;
+  border: 1px solid $color_blue;
+  border-bottom: 3px solid $color_blue;
+  border-radius: 3px;
+}
+
+._buttons_standart .red {
+  background-color: $color_white;
+  color: $color_red;
+  border: 1px solid $color_red;
+  border-bottom: 3px solid $color_red;
+  border-radius: 3px;
+}
+
+._buttons_standart_big .blue {
+}
+._buttons_standart_big .red {
+}
+._buttons_standart_big button {
+  width: 10vw;
+  height: 3.3vw;
+}
+._buttons_standart_small .blue {
+  margin: 10px;
+}
+._buttons_standart_small .red {
+  margin: 10px;
+}
+._buttons_standart_small button {
+  width: 78px;
+  height: 22px;
+}
+
+// Риппл эффекты
+
+.blue.ripple {
+  background-position: center;
+  transition: background 0.4s;
+  margin: 0px;
+}
+
+.blue.ripple:hover {
+  color: $color_white;
+  background: $color_blue radial-gradient(circle, transparent 1%, $color_blue 1%) center/15000%;
+}
+
+.blue.ripple:active {
+ background-color: white;
+ background-size: 100%;
+ transition: background 0s;
+}
+
+.red.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.red.ripple:hover {
+  color: $color_white;
+  background: $color_red radial-gradient(circle, transparent 1%, $color_red 1%) center/15000%;
+}
+
+.red.ripple:active {
+ background-color: white;
+ background-size: 100%;
+ transition: background 0s;
+}
+
+
+
+// Круглые кнопки ниже
+
+._buttons_arrow_active button {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(78, 183, 168);
+  border-radius: 50%;
+  background-color: $color_white;
+  width: 54px;
+  height: 54px;
+}
+._buttons_arrow_disabled button{
+  border-radius: 50%;
+  background-color: $color_gray;
+  width: 54px;
+  height: 54px;
+  pointer-events: none;
+  border: none;
+}
+
+._buttons_arrow_disabled svg {
+  fill: $color_white;
+}
+
+._buttons_arrow_active svg {
+  fill: $color_blue;
+  stroke-width: 1px;
+  stroke: $color_white;
+}
+.left svg {
+  padding-right: 3px;
+}
+.right svg {
+  padding-left: 3px;
+} 
+._buttons_arrow_active button:hover{
+  border-style: solid;
+  border-width: 3px;
+  border-color: $color_blue;
+  border-radius: 50%;
+  background-color: $color_blue;
+  fill: white;
+}
+
+

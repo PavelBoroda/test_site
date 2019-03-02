@@ -1,0 +1,79 @@
+.chat {
+  width: 290px;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f2f2f2;
+  font-size: 12.5px;
+}
+.namehere h3 {
+  text-align: center;
+}
+.photo {
+  width: 244px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.photo img {
+  position: relative;
+  width: 95px;
+  height: 95px;
+  bottom: 47px;
+}
+.photo svg {
+  margin-top: 10px;
+}
+.namehere {
+  width: 290px;
+  height: 83px;
+  border-bottom: 35px solid #46ab9d;
+  background-color: #4eb7a8;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 28px;
+  color: white;
+}
+.namehere h3 {
+  margin-top: 20px;
+}
+.chatup {
+  width: 244px;
+  height: 70px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-bottom: 18px;
+  align-items: center;
+  text-align: center;
+}
+.chatdown {
+  width: 244px;
+  height: 82px;
+  background-color: #e5e5e5;
+  border: 2px solid white;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+}
+.chatup p {
+  width: 175px;
+  text-align: center;
+  margin-left: 35px;
+}
+.chatdown p {
+  width: 175px;
+  text-align: center;
+  margin-left: 35px;
+}
+.chat button {
+  height: 35px;
+  width: 244px;
+  background-color: #4eb7a8;
+  color: white;
+  border-bottom: 2px solid #28a290;
+  border-radius: 5px;
+  font-size: 15px;
+}

@@ -1,0 +1,93 @@
+.PieChart {
+  display: flex;
+  margin-top: 50px;
+ 
+
+  
+}
+#circle {
+  position: relative;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 6vw;
+ 
+ }  
+#circle canvas {
+  widows: 6.7vw;
+  height: 6.7vw;
+}
+#circle2 canvas {
+  widows: 6.7vw;
+  height: 6.7vw;
+}
+#circle3 canvas {
+  widows: 6.7vw;
+  height: 6.7vw;
+}
+
+#circle strong {
+  position: absolute;
+  left: 2vw;
+  width: 100%;
+  top: 2vw;
+  color: #9d9d9d;
+  font-size: 30px;
+}
+#circle2 {
+  position: relative;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  width: 6vw;
+ 
+ }  
+
+#circle2 strong {
+  position: absolute;
+  left: 2vw;
+  width: 100%;
+  top: 2vw;
+  color: #9d9d9d;
+  font-size: 30px;
+}
+#circle3 {
+  position: relative;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  width: 6vw;
+ 
+ }  
+
+#circle3 strong {
+  position: absolute;
+  left: 2vw;
+  width: 100%;
+  top: 2vw;
+  color: #9d9d9d;
+  font-size: 30px;
+}
+
+.container {
+  width: 6vw;
+  height: 6vw;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+}
+.container:after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: #fff;
+  border-radius: 50%;
+  top: 25%;
+  left: 25%;
+}
+.sector {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform-origin: left bottom;
+}

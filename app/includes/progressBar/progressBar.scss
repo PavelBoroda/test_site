@@ -1,0 +1,55 @@
+:root {
+  --progress-bar-height: 4px;
+  --progress-bar-color: gainsboro;
+  --progress-bar-value-color: dodgerblue;
+  --progress-bar-value: 20%;
+}
+
+article {
+  position: fixed;
+  top: 7.7vw;
+  left: 33vw;
+  width: 40vw;
+  z-index: 100;
+}
+
+.article-title {
+  position: sticky;
+  top: 0;
+  padding-bottom: 24px;  
+}
+
+.progress-wrapper {
+  position: relative;
+}
+
+.progress-label {
+  position: absolute;
+  right: 0; bottom: 0;
+  font-size: 14px;
+}
+
+progress {
+  appearance: none;
+  position: absolute;
+  width: 100%;
+  height: var(--progress-bar-height);
+  background-color: var(--progress-bar-color);
+  border: none;
+  
+  &::-moz-progress-bar {
+    background-color: var(--progress-bar-value-color);
+  }
+  
+  &::-webkit-progress-bar {
+    background-color: var(--progress-bar-color);
+  }
+  
+  &::-webkit-progress-value {
+    background-color: var(--progress-bar-value-color);
+  }
+  
+  &::-ms-fill {
+    background-color: var(--progress-bar-value-color);
+  }
+}

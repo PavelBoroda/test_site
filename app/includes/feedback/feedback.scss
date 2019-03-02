@@ -1,0 +1,43 @@
+$colorback: #e5e5e5;
+.feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: -2vw;
+  
+}
+.inputsubmit input  {
+  background-color: #4eb7a8;
+  border: 1px solid #4eb7a8;
+  border-bottom: 4px solid #28a290;
+  width: 130px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  left: 165px;
+  font-size: 20px;
+  bottom: 1vw;
+  
+}
+.inputname input {
+  width: 210px;
+  height: 28px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: $colorback;
+}
+.inputmail input {
+  width: 210px;
+  height: 28px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: $colorback;
+}
+.inputtext textarea {
+  width: 290px;
+  resize: none;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: $colorback;
+}

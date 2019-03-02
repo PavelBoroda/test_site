@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title WebKit
+        
+       
+body     
+  .header   
+    h1 Онлайн кинотеатр <br> "Театр Абсурда"
+    .buttonBlock
+      include ./includes/buttons/buttons.pug
+    include ./includes/search/search.pug 
+      
+  .contentCenter
+    .leftside
+      .leftnews
+        include ./includes/news/news.pug
+    .main
+      #yak1
+      .mainprogressbar
+        include ./includes/progressBar/progressBar.pug
+      .mainvideo
+        include ./includes/video/video.pug
+      .company
+        .companyslider
+          include ./includes/sliders/sliders.pug
+        .companystagebar
+          include ./includes/stageBar/stageBar.pug
+        .companyprocent
+          include ./includes/PieChart/PieChart.pug
+      .contact
+        #yak3
+        .contactmaps
+          include ./includes/maps/maps.pug
+        
+      .minechat
+        #yak4
+        .chatchat
+          include ./includes/chat/chat.pug
+        .chatfeedback
+          include ./includes/feedback/feedback.pug
+          
+      
+    .rightside
+      .rightuserprofile
+        include ./includes/userprofile/userprofile.pug
+      .righttoggle 
+        include ./includes/toggle/toggle.pug
+      .rightcalendar
+        include ./includes/calendar/calendar.pug
+      .dropdownhere
+        include ./includes/dropdown/dropdown.pug    
+footer

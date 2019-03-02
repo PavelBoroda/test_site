@@ -1,0 +1,45 @@
+.maps {
+  background-color: #e75735;
+  width: 43.8vw;
+  height: 275px;;
+  margin-top: 1vw;
+  margin-left: 5vw;
+
+}
+.mapstext {
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+}
+.mapstext h6 {
+  margin: 0px;
+  width: 150px;
+  height: 40px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 30px;
+}
+.mapstext p {
+  margin: 0px;
+  font-size: 12.5px;
+  width: 150px;
+  height: 40px;
+  line-height: 0.8;
+  margin-top: 15px;
+  
+}
+.icons {
+  margin-left: 140px;
+  width:100px;
+  
+}
+.icons svg {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.maps iframe {
+  width: 43.5vw;
+}

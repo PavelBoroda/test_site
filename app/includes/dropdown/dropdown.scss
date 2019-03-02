@@ -1,0 +1,71 @@
+.selectBox{
+	position:relative;
+	display:inline-block;
+	cursor:default;
+	text-align:left;
+	line-height:2vw;
+	clear:both;
+  color:#a7a7a7;
+	margin-top: 2vw;
+	width: 12.5vw;
+	height: 5vw;
+}
+span.selected{
+	width:10.3vw;
+	text-indent:1vw;
+	border:1px solid #ccc;
+	border-right:none;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	background:#e5e5e5;
+	overflow:hidden;
+}
+span.selectArrow{
+	width:1.5vw;
+	border:1px solid #60abf8;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	text-align:center;
+	font-size:1vw;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	background:	#4eb7a8;
+	color:#fff;
+}
+
+span.selectArrow,span.selected{
+	position:relative;
+	float:left;
+	height:2vw;
+	z-index:1;
+}
+
+.selectOptions{
+	position:absolute;
+	top:2vw;
+	left:0;
+	width:12vw;
+	//border:1px solid #ccc;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	overflow:hidden;
+	background:#4eb7a8;
+	padding-top:2px;
+  display:none;
+  color: #fff;
+}
+	
+span.selectOption{
+	display:block;
+	width:80%;
+	line-height:20px;
+	padding:0.2vw;
+}
+
+span.selectOption:hover{
+	color:#a7a7a7;
+	background:#4096ee;	
+}			

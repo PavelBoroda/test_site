@@ -1,0 +1,18 @@
+Header
+  .header
+    h1 Онлайн кинотеатр "Театр Абсурда"
+    .buttonBlock
+      include ../includes/buttons/buttons.pug
+    include ../includes/search/search.pug 
+    include ../includes/progressBar/progressBar.pug
+.contentCenter
+  leftside
+    include ../includes/news/news.pug
+    include ../includes/calendar/calendar.pug
+  main
+    include ../includes/video/video.pug
+  rightside
+    include ../includes/userprofile/userprofile.pug
+    include ../includes/toggle/toggle.pug
+footer
+  include ../includes/PieChart/PieChart.pug
